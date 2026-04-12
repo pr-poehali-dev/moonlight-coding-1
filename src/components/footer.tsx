@@ -21,6 +21,9 @@ export function Footer() {
               <a href="https://discord.gg/aATeagGf4y" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
                 <Icon name="MessageCircle" size={20} />
               </a>
+              <a href="https://t.me/knife_stonic" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
+                <Icon name="Send" size={20} />
+              </a>
             </div>
           </div>
 
