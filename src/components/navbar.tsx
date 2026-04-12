@@ -19,12 +19,6 @@ export function Navbar() {
           {/* Desktop Navigation */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
-              <a
-                href="#technology"
-                className="font-geist text-white hover:text-red-500 transition-colors duration-200"
-              >
-                Технологии
-              </a>
               <a href="#safety" className="font-geist text-white hover:text-red-500 transition-colors duration-200">
                 Безопасность
               </a>
@@ -56,13 +50,6 @@ export function Navbar() {
         {isOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 bg-black/98 border-t border-red-500/20">
-              <a
-                href="#technology"
-                className="block px-3 py-2 font-geist text-white hover:text-red-500 transition-colors duration-200"
-                onClick={() => setIsOpen(false)}
-              >
-                Технологии
-              </a>
               <a
                 href="#safety"
                 className="block px-3 py-2 font-geist text-white hover:text-red-500 transition-colors duration-200"
