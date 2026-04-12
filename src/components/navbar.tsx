@@ -22,8 +22,9 @@ export function Navbar() {
               <a href="#about" className="font-geist text-white hover:text-red-500 transition-colors duration-200">
                 Биография
               </a>
-
-
+              <a href="#join" className="font-geist text-white hover:text-red-500 transition-colors duration-200">
+                Участие в съёмках
+              </a>
             </div>
           </div>
 
@@ -56,8 +57,13 @@ export function Navbar() {
               >
                 Биография
               </a>
-
-
+              <a
+                href="#join"
+                className="block px-3 py-2 font-geist text-white hover:text-red-500 transition-colors duration-200"
+                onClick={() => setIsOpen(false)}
+              >
+                Участие в съёмках
+              </a>
               <div className="px-3 py-2">
                 <a href="https://www.youtube.com/@KNIFE_stanik" target="_blank" rel="noopener noreferrer">
                   <Button className="w-full bg-red-500 hover:bg-red-600 text-white font-geist border-0">
