@@ -24,40 +24,16 @@ export function Footer() {
             </div>
           </div>
 
-          {/* Product */}
+          {/* Bio */}
           <div>
-            <h3 className="font-orbitron text-white font-semibold mb-4">Продукт</h3>
+            <h3 className="font-orbitron text-white font-semibold mb-4">Биография</h3>
             <ul className="space-y-2">
               <li>
                 <a
-                  href="#technology"
+                  href="#about"
                   className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200"
                 >
-                  Технологии
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#applications"
-                  className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200"
-                >
-                  Применения
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#safety"
-                  className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200"
-                >
-                  Безопасность
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#faq"
-                  className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200"
-                >
-                  Вопросы
+                  Обо мне
                 </a>
               </li>
             </ul>
