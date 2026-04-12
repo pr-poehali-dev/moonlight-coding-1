@@ -2,6 +2,7 @@ import { Hero3DWebGL as Hero3D } from "@/components/hero-webgl"
 import { FeaturesSection } from "@/components/features-section"
 import { AboutSection } from "@/components/about-section"
 import { SafetySection } from "@/components/safety-section"
+import { JoinSection } from "@/components/join-section"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 
@@ -18,6 +19,7 @@ export default function Index() {
         <section id="safety">
           <SafetySection />
         </section>
+        <JoinSection />
       </main>
       <Footer />
     </div>
