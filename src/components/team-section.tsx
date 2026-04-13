@@ -12,6 +12,12 @@ export function TeamSection() {
       description: "16 лет. Основатель канала nyllprogo. Добрый и отзывчивый участник команды.",
       emoji: "🎮",
     },
+    {
+      name: "Дима — ahomertic",
+      role: "Основатель канала ahomertic",
+      description: "16 лет. Основатель канала ahomertic. Добрый и отзывчивый участник команды.",
+      emoji: "🎯",
+    },
   ]
 
   return (
