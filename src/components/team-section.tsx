@@ -9,7 +9,7 @@ export function TeamSection() {
     {
       name: "Миша — nyllprogo",
       role: "Основатель канала nyllprogo",
-      description: "16 лет. Основатель канала nyllprogo. Добрый и отзывчивый участник команды.",
+      description: "17 лет. Основатель канала nyllprogo. Добрый и отзывчивый участник команды.",
       emoji: "🎮",
     },
     {
