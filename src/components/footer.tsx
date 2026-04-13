@@ -27,21 +27,6 @@ export function Footer() {
             </div>
           </div>
 
-          {/* Bio */}
-          <div>
-            <h3 className="font-orbitron text-white font-semibold mb-4">Биография</h3>
-            <ul className="space-y-2">
-              <li>
-                <a
-                  href="#about"
-                  className="font-space-mono text-gray-400 hover:text-red-500 transition-colors duration-200"
-                >
-                  Обо мне
-                </a>
-              </li>
-            </ul>
-          </div>
-
 
         </div>
 
