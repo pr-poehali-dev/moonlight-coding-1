@@ -7,16 +7,10 @@ export function TeamSection() {
       emoji: "🎬",
     },
     {
-      name: "Участник 2",
-      role: "Оператор",
-      description: "Отвечает за съёмку и качество картинки.",
-      emoji: "📷",
-    },
-    {
-      name: "Участник 3",
-      role: "Сценарист",
-      description: "Пишет сценарии и придумывает сюжеты для видео.",
-      emoji: "✍️",
+      name: "Миша — nyllprogo",
+      role: "Основатель канала nyllprogo",
+      description: "16 лет. Основатель канала nyllprogo. Добрый и отзывчивый участник команды.",
+      emoji: "🎮",
     },
   ]
 
