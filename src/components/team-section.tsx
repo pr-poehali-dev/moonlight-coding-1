@@ -54,6 +54,18 @@ export function TeamSection() {
       description: "14 лет. Добрый и отзывчивый участник команды.",
       emoji: "🚀",
     },
+    {
+      name: "Евген — hachEGL",
+      role: "Участник команды",
+      description: "14 лет. Добрый и отзывчивый участник команды.",
+      emoji: "🎮",
+    },
+    {
+      name: "Agus3a_YT_gugugaga",
+      role: "Участник команды",
+      description: "14 лет. Добрый и отзывчивый участник команды.",
+      emoji: "👾",
+    },
   ]
 
   return (
