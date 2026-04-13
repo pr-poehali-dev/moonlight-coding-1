@@ -25,6 +25,9 @@ export function Navbar() {
               <a href="#join" className="font-geist text-white hover:text-red-500 transition-colors duration-200">
                 Участие в съёмках
               </a>
+              <a href="#team" className="font-geist text-white hover:text-red-500 transition-colors duration-200">
+                Моя команда
+              </a>
             </div>
           </div>
 
@@ -69,6 +72,13 @@ export function Navbar() {
                 onClick={() => setIsOpen(false)}
               >
                 Участие в съёмках
+              </a>
+              <a
+                href="#team"
+                className="block px-3 py-2 font-geist text-white hover:text-red-500 transition-colors duration-200"
+                onClick={() => setIsOpen(false)}
+              >
+                Моя команда
               </a>
               <div className="px-3 py-2 flex flex-col gap-2">
                 <a href="https://www.youtube.com/@KNIFE_stanik" target="_blank" rel="noopener noreferrer">
