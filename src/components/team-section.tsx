@@ -18,6 +18,12 @@ export function TeamSection() {
       description: "16 лет. Основатель канала ahomertic. Добрый и отзывчивый участник команды.",
       emoji: "🎯",
     },
+    {
+      name: "Игорь — Oy_noy_shipytchka",
+      role: "Участник команды",
+      description: "15 лет. Добрый и отзывчивый участник команды.",
+      emoji: "⚡",
+    },
   ]
 
   return (
