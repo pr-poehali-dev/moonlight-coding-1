@@ -28,10 +28,16 @@ export function Navbar() {
             </div>
           </div>
 
-          {/* CTA Button */}
-          <div className="hidden md:block">
+          {/* CTA Buttons */}
+          <div className="hidden md:flex items-center gap-2">
             <a href="https://www.youtube.com/@KNIFE_stanik" target="_blank" rel="noopener noreferrer">
               <Button className="bg-red-500 hover:bg-red-600 text-white font-geist border-0">YouTube</Button>
+            </a>
+            <a href="https://t.me/knife_stonic" target="_blank" rel="noopener noreferrer">
+              <Button className="bg-blue-500 hover:bg-blue-600 text-white font-geist border-0">Telegram</Button>
+            </a>
+            <a href="https://discord.gg/aATeagGf4y" target="_blank" rel="noopener noreferrer">
+              <Button className="bg-indigo-600 hover:bg-indigo-700 text-white font-geist border-0">Discord</Button>
             </a>
           </div>
 
@@ -64,11 +70,15 @@ export function Navbar() {
               >
                 Участие в съёмках
               </a>
-              <div className="px-3 py-2">
+              <div className="px-3 py-2 flex flex-col gap-2">
                 <a href="https://www.youtube.com/@KNIFE_stanik" target="_blank" rel="noopener noreferrer">
-                  <Button className="w-full bg-red-500 hover:bg-red-600 text-white font-geist border-0">
-                    YouTube
-                  </Button>
+                  <Button className="w-full bg-red-500 hover:bg-red-600 text-white font-geist border-0">YouTube</Button>
+                </a>
+                <a href="https://t.me/knife_stonic" target="_blank" rel="noopener noreferrer">
+                  <Button className="w-full bg-blue-500 hover:bg-blue-600 text-white font-geist border-0">Telegram</Button>
+                </a>
+                <a href="https://discord.gg/aATeagGf4y" target="_blank" rel="noopener noreferrer">
+                  <Button className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-geist border-0">Discord</Button>
                 </a>
               </div>
             </div>
