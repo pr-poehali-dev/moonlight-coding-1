@@ -3,6 +3,7 @@ import { FeaturesSection } from "@/components/features-section"
 import { AboutSection } from "@/components/about-section"
 import { SafetySection } from "@/components/safety-section"
 import { JoinSection } from "@/components/join-section"
+import { TeamSection } from "@/components/team-section"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 
@@ -20,6 +21,7 @@ export default function Index() {
           <SafetySection />
         </section>
         <JoinSection />
+        <TeamSection />
       </main>
       <Footer />
     </div>

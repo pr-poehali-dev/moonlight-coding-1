@@ -1,0 +1,53 @@
+export function TeamSection() {
+  const team = [
+    {
+      name: "Артём",
+      role: "Основатель / Режиссёр",
+      description: "Создатель канала KNIFE_stanik. Придумывает идеи, снимает и монтирует видео.",
+      emoji: "🎬",
+    },
+    {
+      name: "Участник 2",
+      role: "Оператор",
+      description: "Отвечает за съёмку и качество картинки.",
+      emoji: "📷",
+    },
+    {
+      name: "Участник 3",
+      role: "Сценарист",
+      description: "Пишет сценарии и придумывает сюжеты для видео.",
+      emoji: "✍️",
+    },
+  ]
+
+  return (
+    <section id="team" className="bg-black py-24 px-4">
+      <div className="max-w-7xl mx-auto">
+        <div className="text-center mb-16">
+          <h2 className="font-orbitron text-4xl md:text-5xl font-bold text-white mb-4">
+            Моя <span className="text-red-500">команда</span>
+          </h2>
+          <p className="font-space-mono text-gray-400 text-lg max-w-2xl mx-auto">
+            Люди, которые помогают создавать контент на канале KNIFE_stanik
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {team.map((member) => (
+            <div
+              key={member.name}
+              className="bg-gray-900 border border-red-500/20 rounded-2xl p-8 text-center hover:border-red-500/60 transition-all duration-300 hover:-translate-y-1"
+            >
+              <div className="text-6xl mb-4">{member.emoji}</div>
+              <h3 className="font-orbitron text-xl font-bold text-white mb-2">{member.name}</h3>
+              <p className="font-geist text-red-500 text-sm font-semibold mb-4 uppercase tracking-widest">
+                {member.role}
+              </p>
+              <p className="font-space-mono text-gray-400 text-sm leading-relaxed">{member.description}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}
