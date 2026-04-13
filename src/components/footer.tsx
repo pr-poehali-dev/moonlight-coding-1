@@ -12,7 +12,7 @@ export function Footer() {
               KNI<span className="text-red-500">FE</span>
             </h2>
             <p className="font-space-mono text-gray-300 mb-6 max-w-md">
-              История моих фильмов и сериалов. YouTube-канал Артёма — KNIFE.
+              История моих фильмов и сериалов. YouTube-канал Артёма — KNIFE_stanik.
             </p>
             <div className="flex space-x-4">
               <a href="https://www.youtube.com/@KNIFE_stanik" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-red-500 transition-colors duration-200">
