@@ -36,6 +36,24 @@ export function TeamSection() {
       description: "17 лет. Добрый и отзывчивый участник команды.",
       emoji: "🔥",
     },
+    {
+      name: "Артём — Always better you bro",
+      role: "Участник команды",
+      description: "14 лет. Добрый и отзывчивый участник команды.",
+      emoji: "💪",
+    },
+    {
+      name: "Ярик — _GITARIK_TT",
+      role: "Участник команды",
+      description: "14 лет. Добрый и отзывчивый участник команды.",
+      emoji: "🎸",
+    },
+    {
+      name: "Тимур — Tumytd2",
+      role: "Участник команды",
+      description: "14 лет. Добрый и отзывчивый участник команды.",
+      emoji: "🚀",
+    },
   ]
 
   return (
